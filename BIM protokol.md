@@ -32,59 +32,21 @@ V případě inkorporace Protokolu do smlouvy s Uživateli jako subdodavateli 
 
 # 2. Definice
 
-**Protokol** 
-
-Znamená tento BIM Protokol.
-
-**Společné datové prostředí nebo CDE** 
-
-Systém (hardware i software) zřízený nebo zpřístupněný Objednatelem sloužící ke sdílení dat a informací v rámci informačního modelování staveb, k informačnímu modelování staveb a k dodávkám jednotlivých plnění či vzájemné komunikaci mezi Uživateli.
-
-**Sdílená data** 
-
-Data, informace a ostatní skutečnosti sdílené a sdělované prostřednictvím CDE v otevřeném formátu umožňujícím práci též ostatním Uživatelům v souladu s Informačními požadavky a zahrnující zejména tvorbu, vstupy a úpravy Informačního modelu.
-
-*POZN. 1: Sdílená data jsou příkladmo vymezena v čl. 4.1 Protokolu.*
-
-**Uživatelé**
-Uživatelé CDE, kterým udělil Objednatel přístup do CDE ať již na základě požadavku Zhotovitele nebo z jiného důvodu.
-
-*POZN. 1: Uživatelé tvoří projektový tým BIM.*
-
-**Uživatelé na straně Objednatele** 
-
-Uživatelé určení Objednatelem, bez ohledu na to, zda jde o zaměstnance Objednatele nebo jiné s ním spolupracující osoby.
-
-**Uživatelé na straně Zhotovitele:** 
-
-Uživatelé určení Zhotovitelem, bez ohledu na to, zda jde o zaměstnance Zhotovitele nebo jiné s ním spolupracující osoby.
-
-**Koordinátor BIM** 
-
-Osoba určena Zhotovitelem za účelem koordinace činností CDE, aktualizace nezbytných Sdílených dat, Informačních modelů a dalších informací na straně Zhotovitele; tato osoba je jedním z Uživatelů na straně Zhotovitele.
-
-**Smlouva** 
-
-Smlouva, jejíž přílohou je tento Protokol. Smlouva také vymezuje Dílo, které je předmětem Smlouvy. Odkazuje-li některé    ustanovení Protokolu na Smlouvu, rozumí se tím znění Smlouvy včetně všech příloh, není-li stanoveno jinak, nebo nevyplývá-li z obsahu a kontextu něco jiného.
-
-**Informační model**
-
-Informace v digitální podobě, které jsou předmětem informačního modelování, pořízené prostřednictvím CAD systémů a dalších softwarových nástrojů, organizovaných tak, aby reprezentovaly objekt (např. stavební prvek, výrobek); tyto informace obsahují veškerá Sdílená data včetně elektronické projektové dokumentace v rámci 3D a 4D projektování zaznamenávající také jednotlivé údaje o konkrétních složkách Informačního modelu jako výrobků či jiných jednotlivých plnění nebo samostatných složek plnění, a to včetně metadat (grafická a negrafická data) nebo jiných obrazových nebo multimediálních záznamů. Součástí Informačních modelů mohou být odkazy na další systémy a informace neobsažené přímo v Informačních modelech.
-
-**Informační požadavky** 
-Specifikace datových formátů, standardů, zásad a vlastností ve vazbě na Dílo tak, jak jsou uvedeny v příloze tohoto Protokolu -- dokumentu EIR; popisují způsob, jakým lze vytvářet, dodávat a používat Informační modely, včetně veškerých procesů, protokolů a postupů, na které je v dokumentu odkazováno.
-
-**Přípustný účel**
-
-Účel související s Dílem a s veškerými pracemi, jež mají nebo mohou být na základě či s využitím Díla prováděny (především projektováním, výstavbou, úpravami a opravami, provozem a údržbou, či odstraňováním nebo demolicí stavby, jež je předmětem Díla (nebo dalších předmětů Díla ve smyslu Smlouvy); výraz „projektování" pro vyloučení pochybností má být vykládán v co nejširším rozsahu tak, aby zahrnoval mj. zhotovení a úpravy veškeré projektové dokumentace všech stupňů či vypracovávání žádostí, podnětů, vyjádření nebo jiných právních jednání a podkladů týkajících se veškerých správních rozhodnutí, stanovisek, osvědčení nebo jakýchkoliv jiných aktů).
-
-**Obchodní podmínky** 
-
-Znamenají obchodní podmínky a další všeobecné podmínky případně přiložené ke smlouvě jako její příloha, které nejsou technickými podmínkami.
-
-**Technické podmínky:** 
-
-Znamenají technické podmínky případně přiložené ke smlouvě a v závislosti na konkrétním případě zahrnující všeobecné, kvalitativní a zvláštní technické podmínky, případně další technické podmínky, které nejsou obchodními podmínkami.
+| **Pojem/Zkratka** | **Definice** |
+|---|---|
+| **Protokol** | Znamená tento BIM Protokol. |
+| **Společné datové prostředí nebo CDE** | Systém (hardware i software) zřízený nebo zpřístupněný Objednatelem sloužící ke sdílení dat a informací v rámci informačního modelování staveb, k informačnímu modelování staveb a k dodávkám jednotlivých plnění či vzájemné komunikaci mezi Uživateli. |
+| **Sdílená data** | Data, informace a ostatní skutečnosti sdílené a sdělované prostřednictvím CDE v otevřeném formátu umožňujícím práci též ostatním Uživatelům v souladu s Informačními požadavky a zahrnující zejména tvorbu, vstupy a úpravy Informačního modelu. *POZN.: Sdílená data jsou příkladmo vymezena v čl. 4.1 Protokolu.* | 
+| **Uživatelé**| Uživatelé CDE, kterým udělil Objednatel přístup do CDE ať již na základě požadavku Zhotovitele nebo z jiného důvodu. *POZN.: Uživatelé tvoří projektový tým BIM.* |
+| **Uživatelé na straně Objednatele** | Uživatelé určení Objednatelem, bez ohledu na to, zda jde o zaměstnance Objednatele nebo jiné s ním spolupracující osoby. | 
+| **Uživatelé na straně Zhotovitele:** | Uživatelé určení Zhotovitelem, bez ohledu na to, zda jde o zaměstnance Zhotovitele nebo jiné s ním spolupracující osoby. | 
+| **Koordinátor BIM** | Osoba určena Zhotovitelem za účelem koordinace činností CDE, aktualizace nezbytných Sdílených dat, Informačních modelů a dalších informací na straně Zhotovitele; tato osoba je jedním z Uživatelů na straně Zhotovitele. |
+| **Smlouva** | Smlouva, jejíž přílohou je tento Protokol. Smlouva také vymezuje Dílo, které je předmětem Smlouvy. Odkazuje-li některé ustanovení Protokolu na Smlouvu, rozumí se tím znění Smlouvy včetně všech příloh, není-li stanoveno jinak, nebo nevyplývá-li z obsahu a kontextu něco jiného. | 
+| **Informační model** | Informace v digitální podobě, které jsou předmětem informačního modelování, pořízené prostřednictvím CAD systémů a dalších softwarových nástrojů, organizovaných tak, aby reprezentovaly objekt (např. stavební prvek, výrobek); tyto informace obsahují veškerá Sdílená data včetně elektronické projektové dokumentace v rámci 3D a 4D projektování zaznamenávající také jednotlivé údaje o konkrétních složkách Informačního modelu jako výrobků či jiných jednotlivých plnění nebo samostatných složek plnění, a to včetně metadat (grafická a negrafická data) nebo jiných obrazových nebo multimediálních záznamů. Součástí Informačních modelů mohou být odkazy na další systémy a informace neobsažené přímo v Informačních modelech. |
+| **Informační požadavky** | Specifikace datových formátů, standardů, zásad a vlastností ve vazbě na Dílo tak, jak jsou uvedeny v příloze tohoto Protokolu - dokumentu EIR; popisují způsob, jakým lze vytvářet, dodávat a používat Informační modely, včetně veškerých procesů, protokolů a postupů, na které je v dokumentu odkazováno. |
+| **Přípustný účel** | Účel související s Dílem a s veškerými pracemi, jež mají nebo mohou být na základě či s využitím Díla prováděny (především projektováním, výstavbou, úpravami a opravami, provozem a údržbou, či odstraňováním nebo demolicí stavby, jež je předmětem Díla (nebo dalších předmětů Díla ve smyslu Smlouvy); výraz „projektování" pro vyloučení pochybností má být vykládán v co nejširším rozsahu tak, aby zahrnoval mj. zhotovení a úpravy veškeré projektové dokumentace všech stupňů či vypracovávání žádostí, podnětů, vyjádření nebo jiných právních jednání a podkladů týkajících se veškerých správních rozhodnutí, stanovisek, osvědčení nebo jakýchkoliv jiných aktů). |
+| **Obchodní podmínky** | Znamenají obchodní podmínky a další všeobecné podmínky případně přiložené ke smlouvě jako její příloha, které nejsou technickými podmínkami. |
+| **Technické podmínky:** | Znamenají technické podmínky případně přiložené ke smlouvě a v závislosti na konkrétním případě zahrnující všeobecné, kvalitativní a zvláštní technické podmínky, případně další technické podmínky, které nejsou obchodními podmínkami. |
 
 *POZN. 1: Pro pojmy s velkými počátečními písmeny, které nejsou v tomto dokumentu definovány, platí definice dle Smlouvy.*
 
