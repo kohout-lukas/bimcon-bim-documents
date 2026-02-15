@@ -3,9 +3,7 @@
 
 **Objednatel**: `Karlovarský kraj`
 
-**Vytvořil**: `BIM Consulting s.r.o.`
-
-**Verze**: 01
+**Verze**: V.01
 
 # Obsah
 

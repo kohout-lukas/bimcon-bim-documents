@@ -182,10 +182,20 @@ for element_code in sorted(element_properties.keys()):
                 prop_set = ET.SubElement(property_elem, 'propertySet')
                 ET.SubElement(prop_set, 'simpleValue').text = param_group
             
-            # Value type
+            # Value type with special handling for Třídicí kód and Identifikační kód
             if ifc_value_type:
                 value = ET.SubElement(property_elem, 'value')
-                ET.SubElement(value, 'simpleValue').text = ifc_value_type
+                # Apply pattern restrictions for specific properties
+                if param_name == 'Třídicí kód':
+                    # Pattern: two letters, two digits (e.g., SN01)
+                    restriction = ET.SubElement(value, 'xs:restriction', {'base': 'xs:string'})
+                    ET.SubElement(restriction, 'xs:pattern', {'value': '[A-Z]{2}[0-9]{2}'})
+                elif param_name == 'Identifikační kód':
+                    # Pattern: two letters, two digits, dot, two digits, dot, four digits (e.g., SN01.00.0001)
+                    restriction = ET.SubElement(value, 'xs:restriction', {'base': 'xs:string'})
+                    ET.SubElement(restriction, 'xs:pattern', {'value': '[A-Z]{2}[0-9]{2}\\.[0-9]{2}\\.[0-9]{4}'})
+                else:
+                    ET.SubElement(value, 'simpleValue').text = ifc_value_type
 
 # Convert to string with pretty formatting
 def prettify(elem):

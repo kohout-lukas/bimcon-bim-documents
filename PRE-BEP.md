@@ -5,7 +5,7 @@
 
 **Zhotovitel**: `[Název zhotovitele]`
 
-**Verze**: 01
+**Verze**: V.01
 
 # Obsah
 
@@ -32,7 +32,7 @@
 
 # 1. Úvod
 
-Tento dokument je určen k řízení tvorby projektu metodou BIM, k popsání konkrétních kroků k naplnění cílů a očekávání. Dokument navazuje na EIR (Požadavky na výměnu informací) a popisuje konkrétní kroky k jejich naplnění na straně dodavatele.
+Tento dokument je určen k řízení tvorby projektu metodou BIM, k popsání konkrétních kroků k naplnění cílů a očekávání. Dokument navazuje na [dokument EIR](EIR.md) (Požadavky na výměnu informací) a popisuje konkrétní kroky k jejich naplnění na straně dodavatele.
 
 Předběžný plán realizace BIM (PRE-BEP) obsahuje:
 
@@ -56,7 +56,7 @@ Předběžný plán realizace BIM (PRE-BEP) obsahuje:
 
 ## 1.1. Pojmy a zkratky
 
-| **Pojem/Zkratka** | **Definice** |
+| **Pojem / Zkratka** | **Definice** |
 |---|---|
 | **Dodavatel / Zhotovitel** | Strana uvedená ve smlouvě, která nabízí poskytnutí dodávek, služeb nebo stavebních prací a je Dodavatelem dle zákona. Dodavatel je vedoucí pověřenou stranou dle ČSN EN ISO 19650. |
 | **Koordinátor BIM** | Osoba na straně Dodavatele odpovědná za kontrolu plnění požadavků na informace v rámci managementu informací s využitím metody BIM. |
@@ -122,20 +122,20 @@ Je-li se v tomto dokumentu odvoláváno na ustanovení normy, týká se to pouze
 
 Kontaktní osoby na straně objednatele odpovídají osobám uvedeným v Požadavků na výměnu informací (EIR).
 
-| **Role BIM** | **Organizace** | **Jméno** | **E-mail** | **Telefon** |
+| **Role BIM** | **Organizace** | **Jméno** | **E-mail** |
 |---|---|---|---|---|
-| **Projektový manažer BIM** |  |  |  |  |
-| **Správce datového prostředí** |  |  |  |  |
-| **Správce stavby** |  |  |  |  |
+| **Projektový manažer BIM** |  |  |  |
+| **Správce datového prostředí** |  |  |  |
+| **Správce stavby** |  |  |  |
 
 ## 2.4. Kontaktní osoby na straně Dodavatele
 
 Kontaktní osoby na straně subdodavatelů, autorů jednotlivých částí modelů, jsou uvedeny v kap. [5.2](#52-složení-realizačního-týmu).
 
-| **Role BIM** | **Organizace** | **Jméno** | **E-mail** | **Telefon** |
-|---|---|---|---|---|
-| **Koordinátor BIM** |  |  |  |  |
-| **Hlavní inženýr projektu (HIP)** |  |  |  |  |
+| **Role BIM** | **Organizace** | **Jméno** | **E-mail** |
+|---|---|---|---|
+| **Koordinátor BIM** |  |  |  |
+| **Hlavní inženýr projektu (HIP)** |  |  |  |
 
 # 3. Strategie sdružování a struktura členění
 

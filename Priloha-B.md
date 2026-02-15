@@ -3,9 +3,7 @@
 
 **Objednatel**: `[Název objednatele]`
 
-**Vytvořil**: `BIM Consulting s.r.o.`
-
-**Verze**: 01
+**Verze**: V.01
 
 # Obsah
 
@@ -41,7 +39,7 @@ Každý prvek modelu je vztažen ke konkrétnímu podlaží, kterému funkčně 
 
 Každý prvek modelu obsahuje informaci o stavebním a/nebo povrchovém materiálu. U konstrukcí, kde je více materiálů (výplně otvorů apod.) bude každá položka rozdělena zvlášť. U prvků, kde je na straně Dodavatele pochybnost o způsobu dělení, musí Dodavatel předložit návrh na rozdělení ke schválení.
 
-# 2. Geometrická podrobnost - stavební část
+# 2. Geometrická podrobnost – stavební část
 
 ## 2.1 Zaměřený terén
 Model obsahuje geodetické zaměření terénu v podobě jednolité plochy, nebo objemu.
@@ -171,7 +169,7 @@ Jsou modelovány svislé a vodorovné prostupy nosnými konstrukcemi v reálnýc
 
 Jsou modelovány svislé a vodorovné prostupy nosnými i nenosnými konstrukcemi v reálných pozicích a velikostech. Prostupy musí jasně definovat statický a stavební otvor.
 
-# 3. Geometrická podrobnost - stavební část
+# 3. Geometrická podrobnost – profese
 
 ## 3.1	Potrubní a trubní vedení
 
@@ -195,6 +193,3 @@ Splňují výše uvedené podmínky pro potrubí a trubní vedení a mechanická
 
 Samostatné dílčí modely budou odpovídat profesím a struktuře modelu. Modely budou obsahovat hlavní kabelové trasy, všechny osazené prvky (např. rozvodné skříně, zásuvky, vypínače, krabice apod.) a kabelové chráničky. 
 Schéma zapojení není třeba řešit v modelovacím nástroji.
-
-
-

@@ -3,9 +3,7 @@
 
 **Objednatel**: `[Název objednatele]`
 
-**Vytvořil**: `BIM Consulting s.r.o.`
-
-**Verze**: 01
+**Verze**: V.01
 
 # Obsah
 
@@ -511,17 +509,11 @@ Volitelný popis, bez požadavků na rozsah.
 
 CDE je implementováno na straně Objednatele. Za provoz CDE na straně Objednatele odpovídá Správce datového prostředí.
 
-Obsah ve stavu sdíleno bude přístupný pro jeho autora a příslušné aktéry, kteří budou provádět jeho kontrolu či schvalování, nebo budou obsah používat jako referenční pro vytváření vlastních informací.
-
-Každý aktér s příslušným oprávněním bude mít v rámci CDE přístup k obsahu ve stavu Publikováno.
-
-K obsahu ve stavu Archivováno bude mít přístup jeho autor, Objednatel a Koordinátor BIM.
+Obsah ve stavu sdíleno bude přístupný pro jeho autora a příslušné aktéry, kteří budou provádět jeho kontrolu či schvalování, nebo budou obsah používat jako referenční pro vytváření vlastních informací. Každý aktér s příslušným oprávněním bude mít v rámci CDE přístup k obsahu ve stavu Publikováno. K obsahu ve stavu Archivováno bude mít přístup jeho autor, Objednatel a Koordinátor BIM.
 
 ### 6.1.6. Elektronická výměna informací
 
-Vzájemná výměna informací (v podobě modelů a dalších dokumentů) pro účel koordinace, reference, sdružování a archivaci bude probíhat výhradně prostřednictvím CDE.
-
-Pro výměnu informací jsou používány formáty splňující následující požadavky:
+Vzájemná výměna informací (v podobě modelů a dalších dokumentů) pro účel koordinace, reference, sdružování a archivaci bude probíhat výhradně prostřednictvím CDE. Pro výměnu informací jsou používány formáty splňující následující požadavky:
 
 #### Dokumenty
 
