@@ -604,7 +604,7 @@ def convert_markdown_to_word(md_file, template_file, output_file):
 
 			label, value = extract_metadata_value(line)
 
-			if label:
+			if label and label != 'Dodavatel':  # Skip Dodavatel field
 
 				metadata[label] = value
 
@@ -880,7 +880,9 @@ def convert_markdown_to_word(md_file, template_file, output_file):
 
 			text = remove_header_numbering(text)
 
-			para = doc.add_heading(text, level=4)
+			para = doc.add_paragraph(text)
+
+			para.style = 'Heading 4'
 			
 
 			# Add bookmark to heading
@@ -1164,7 +1166,7 @@ def convert_markdown_to_word(md_file, template_file, output_file):
 
 				label, value = extract_metadata_value(line)
 
-				if label in ['Projekt', 'Objednatel', 'Zhotovitel', 'Verze']:
+				if label in ['Projekt', 'Objednatel', 'Dodavatel', 'Zhotovitel', 'Verze']:
 
 					idx += 1
 
