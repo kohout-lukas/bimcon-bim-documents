@@ -53,8 +53,8 @@ Požadavky na výměnu informací stanovují aspekty předávaných projektovýc
 ## 1.1. Pojmy a zkratky
 
 | **Pojem/Zkratka** | **Definice** |
-|---|---|
-| **Dodavatel ** | Strana uvedená ve smlouvě, která nabízí poskytnutí dodávek, služeb nebo stavebních prací a je Dodavatelem dle zákona. Dodavatel je vedoucí pověřenou stranou dle ČSN EN ISO 19650. |
+| --- | --- |
+| **Dodavatel** | Strana uvedená ve smlouvě, která nabízí poskytnutí dodávek, služeb nebo stavebních prací a je Dodavatelem dle zákona. Dodavatel je vedoucí pověřenou stranou dle ČSN EN ISO 19650. |
 | **Koordinátor BIM** | Osoba na straně dodavatele odpovědná za kontrolu plnění požadavků na informace v rámci managementu informací s využitím metody BIM. |
 | **Objednatel** | Strana uvedená ve smlouvě, která přijala nabídku dodavatele a je objednatelem podle zákona o zadávání veřejných zakázek. Objednatel je pověřující stranou dle ČSN EN ISO 19650. |
 | **Projektový manažer BIM** | Osoba na straně objednatele odpovědná za kontrolu plnění požadavků na informace v rámci managementu informací s využitím metody BIM. |
@@ -77,7 +77,7 @@ Požadavky na výměnu informací stanovují aspekty předávaných projektovýc
 | **DSPS** | Dokumentace skutečného provedení stavby. |
 | **EIR** | Požadavky na výměnu informací (Exchange Information Requirements); pojem nahradil starší Požadavky objednatele na informace (Employer´s Information Requirements). |
 | **HSV** | Hlavní stavební výroba. |
-| **IDS** | Information Delivery Specification je otevřený, strojově čitelný formát pro přesné definování požadavků na data v infomračním modelu ve fromát `.ifc`|
+| **IDS** | Information Delivery Specification je otevřený, strojově čitelný formát pro přesné definování požadavků na data v infomračním modelu ve fromát `.ifc` |
 | **IMS** | Informační model stavby. |
 | **OIR** | Požadavky organizace na informace (Organizational Information Requirements). |
 | **PIM** | Projektový informační model (informační model stavby týkající se dodací fáze, projektu a realizace). |
@@ -91,7 +91,7 @@ Požadavky na výměnu informací stanovují aspekty předávaných projektovýc
 Tento dokument vychází z částí níže uvedených norem. Je-li se v tomto dokumentu odvoláváno na ustanovení normy, týká se to pouze přímo uvedeného ustanovení, nikoliv celého znění normy.
 
 | **Norma** | **Název** |
-|---|---|
+| --- | --- |
 | **ČSN EN ISO 19650** | Organizace a digitalizace informací o budovách a inženýrských stavbách včetně informačního modelování staveb (BIM) (soubor norem). |
 | **ČSN EN 17817-1** | Informační modelování staveb – Úroveň informačních potřeb – Část 1: Pojmy a principy. |
 | **ČSN EN ISO 16739-1** | Datový formát Industry Foundation Classes (IFC) pro sdílení dat ve stavebnictví a facility managementu. |
@@ -103,9 +103,7 @@ Tento dokument vychází z částí níže uvedených norem. Je-li se v tomto do
 
 Pro dodací fází (projekt a realizaci stavby) přispívají požadavky organizace na informace (OIR) do požadavků na projektové informace (PIR), ty následně přispívají do požadavků na výměnu informací (EIR). EIR specifikují projektový model stavby (PIM). Pro provozní fázi (správa a údržba nemovitostí) jsou vytvářeny požadavky na informace o aktivu, které rovněž přispívají do požadavků na výměnu informací (EIR) a specifikují informační model aktiva (AIM). Informace z projektového informačního modelu (PIM) na konci dodací fáze přispívají do informačního modelu aktiva (AIM). V českém kontextu se tyto informační modely označují jako informační modely stavby (IMS).
 
-<div align="center">
-	<img src="./images/ims.png" alt="IMS">
-</div>
+<div align="center"><img src="./images/ims.png" alt="IMS"></div>
 
 *POZN. 1: V tomto dokumentu jsou již zahrnuty požadavky organizace na informace (OIR), požadavky na informace o aktivu (AIR) a projektové informace (PIR).*
 
@@ -149,9 +147,11 @@ V této kapitole jsou vypsány jednotlivé cíle projektu z pohledu uplatnění 
 - Tvorba strukturovaných informací pro správu a údržbu, která umožní nasazení systému CAFM.
 
 ## 2.3. Účely užití
+
 Vytvářené informace budou sloužit k následujícím účelům užití, pro které jsou v tomto dokumentu stanoveny požadavky na konkrétní informace.
 
 #### Zamýšlené účely užití
+
 - Vytvoření projektové dokumentace a další podklady pro projednání záměru s účastníky řízení, dotčenými orgány státní správy, vlastníky a správci sítí technické a dopravní infrastruktury a vydání správního rozhodnutí.
 - Vyhotovení vizualizací záměru.
 - Projektová dokumentace a další podklady pro provádění stavby (DPS).
@@ -169,6 +169,7 @@ Tato část se zabývá stanovením pravidelných pracovních schůzek a úrovn�
 ## 3.1. Pravidelné pracovní schůzky týkající se managementu informací
 
 Pravidelné pracovní schůzky slouží k řízení a koordinaci procesů managementu informací v průběhu projektu. Cílem je ověřovat plnění  požadavků, sledovat kvalitu dat a modelů, vyhodnocovat výsledky kontrol a řešit vzniklé neshody. Pro potřeby pracovních schůze je nutné:
+
 - Předání dílčích informačních modelů stavby a dalších dokumentů odpovídající úrovni informačních potřeb dle fáze projektu a aktuální rozpracovanosti pro účely:
   - průběžné kontroly,
   - kontroly kolizí,
@@ -216,7 +217,7 @@ Projektový plán prací stanovují etapy projektu na základě Smlouvy o dílo.
 Konec každé etapy projektu je zároveň bodem klíčového rozhodnutí, ve kterém objednatel potřebuje učinit informovaná rozhodnutí zásadní pro další směřování projektu. Smlouvou o dílo jsou stanoveny tyto etapy projektu, u kterých budou informace vytvářeny, předávány a využívány metodou BIM:
 
 | **Etapa / bod klíčového rozhodnutí** | **Popis** | **Smluvní termín** |
-|---|---|---|
+| --- | --- | --- |
 | **Pravidelné pracovní schůzky** | Pravidelně 1x za 30 dní | *[Termín]* |
 | **Informačních modelů rozestavěnosti** | Pravidelně 1x za 90 dní | *[Termín]* |
 | **E1** | Projekt pro povolení záměru (DPZ) | *[Termín]* |
@@ -233,23 +234,23 @@ Milníky pro předávání informací se vztahují ke každému klíčovému bod
 Kontroly kolizí budou vyhodnoceny do 1 týdne od předání podkladů (u průběžných kontrol vždy k termínu konání pracovní schůzky, u závěrečné kontroly 3 týdny před odevzdáním pro umožnění zapracování nedostatků po poslední pracovní schůzce).
 
 | **Etapa / bod klíčového rozhodnutí** | **Termín odevzdání podkladů** |
-|---|---|
-| **Pravidelné pracovní schůzky** |  |
+| --- | --- |
+| **Pravidelné pracovní schůzky** | |
 | Předání podkladů pro kontrolu rozpracovanosti | 1 den předem |
 | Předání podkladů pro prostorovou koordinaci | 1 týden předem |
-| **Informační modely rozestavěnosti** |  |
+| **Informační modely rozestavěnosti** | |
 | Předání podkladů pro kontrolu rozpracovanosti | 1 den předem |
 | Předání podkladů pro prostorovou koordinaci | 1 týden předem |
-| **E1 Projekt pro povolení stavby** |  |
+| **E1 Projekt pro povolení stavby** | |
 | Předání informací pro závěrečnou prostorovou koordinaci | 2 týdny předem |
 | Odevzdání | Ke dni odevzdání |
-| **E2 Projekt pro provádění stavby** |  |
+| **E2 Projekt pro provádění stavby** | |
 | Předání informací pro závěrečnou prostorovou koordinaci | 2 týdny předem |
 | Odevzdání | Ke dni odevzdání |
-| **E3 Projekt skutečného provedení stavby** |  |
+| **E3 Projekt skutečného provedení stavby** | |
 | Prostorová koordinace týkající se zejména změn během výstavby a digitálního modelu skutečného provedení stavby | 2 týdny předem |
 | Odevzdání | Ke dni odevzdání |
-| **E4 Předání informací pro správu a údržbu budovy v CAFM** |  |
+| **E4 Předání informací pro správu a údržbu budovy v CAFM** | |
 | Odevzdání | Ke dni odevzdání |
 
 # 6. Projektový informační standard
@@ -269,7 +270,7 @@ Navržená výchozí adresářová struktura společného datového prostředí,
 Dokumenty se v rámci CDE budou nacházet v jednom z níže uvedených stavů dle normy ČSN EN ISO 19650.
 
 | **Stav** | **Popis** |
-|---|---|
+| --- | --- |
 | **Rozpracováno** | Dokument je aktuálně rozpracován. K dokumentu může být omezen přístup jiným aktérům, než je autor. |
 | **Sdíleno** | Dokument určený pro přezkoumání / schválení / autorizování. |
 | **Publikováno** | Dokument určený pro použití dle účelu (například podklad pro realizaci). |
@@ -282,7 +283,7 @@ Stavy dokumentů budou identifikovány dle funkcionality konkrétního CDE, kter
 Pro efektivní práci na projektu je nezbytné, aby veškeré modely a dokumenty byly snadno vyhledatelné a identifikovatelné, aniž by byly závislé na struktuře a funkcionalitách společného datového prostředí (CDE). Použití konzistentní konvence identifikace informačních kontejnerů (konvence pojmenování) je klíčové pro dosažení tohoto cíle. Veškeré modely a dokumenty, které jsou součástí projektové dokuemntace vyměňované prostřednictvím CDE budou unikátně pojmenovány dle následující konvence. Kontrola splnění konvence pojmenování bude provedena automatickými nástroji při nahrávání souborů do CDE, pokud to dané CDE umožňuje.
 
 | **Pole 1** | **Pole 2** | **Pole 3** | **Pole 4** | **Pole 5** | **Pole 6** | **Pole 7** | **(Pole 8)** |
-|---|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | Kód projektu | Stupeň | Stavební objekt | Profese | Část | Číslo | Revize (dle CDE) | Popis (volitelné) |
 | XXXX | XXXX | XX### | XXX | X | ### | R## | XXX… |
 
@@ -298,12 +299,12 @@ Jedinečný identifikátor projektu. Kód sestává ze 3 alfanumerických znaků
 
 #### Pole 2 – Stupeň
 
-Fáze projektu, zpravidla odpovídající etapě projektu dle kap. [5.1. Body klíčových rozhodnutí a etapy projektu](#51-body-klíčových-rozhodnutí-a-etapy-projektu). 
+Fáze projektu, zpravidla odpovídající etapě projektu dle kap. [5.1. Body klíčových rozhodnutí a etapy projektu](#51-body-klíčových-rozhodnutí-a-etapy-projektu).
 
 Pro projekt `Název projektu` je zvolen kód `XXX`
 
 | **Kód** | **Popis** |
-|---|---|
+| --- | --- |
 | **DPZ** | Dokumentace pro povolení záměru |
 | **DPS** | Dokumentace pro provádění stavby |
 | **DIL** | Dílenská dokumentace |
@@ -321,7 +322,7 @@ Kód profese, resp. zpracovatele konkrétní profesní části.
 Kód sestává ze 3 alfanumerických znaků:
 
 | **Kód** | **Popis** |
-|---|---|
+| --- | --- |
 | **AST** | Architektonicko-stavební část |
 | **STA** | Stavebně-konstrukční část |
 | **VZT** | Vzduchotechnika |
@@ -345,7 +346,7 @@ Kód sestává ze 3 alfanumerických znaků:
 Kód části dokumentace dle vyhlášky 499/2006 Sb., o dokumentaci staveb. Kód sestává z jednoho písmene:
 
 | **Kód** | **Popis** |
-|---|---|
+| --- | --- |
 | **A** | Průvodní zpráva |
 | **B** | Souhrnná technická zpráva |
 | **C** | Situační výkresy |
@@ -364,7 +365,7 @@ Kód revize se v pojmenování nevyužije, pokud CDE neumožňuje modely a dokum
 
 #### Pole 8 – Popis
 
-Volitelný popis. Délka by neměla přesáhnout 30 znaků. 
+Volitelný popis. Délka by neměla přesáhnout 30 znaků.
 
 #### Obecné požadavky
 
@@ -375,7 +376,7 @@ Délka názvu jednoho souboru či složky musí být max. 256 znaků (dle standa
 Pro efektivní správu dokumentů při realizaci a následné správě a provozu budovy je nezbytné, aby veškeré dokumenty související s prvky umístěnými na stavbě byly snadno vyhledatelné a identifikovatelné, aniž by byly závislé na struktuře a funkcionalitách společného datového prostředí (CDE). Použití konzistentní konvence identifikace informačních kontejnerů (konvence pojmenování) je klíčové pro dosažení tohoto cíle. Toto pojmenování zároveň prováže daný dokument s typem prvku v modelu a dokumentaci. Soupis takovýchto relevantních dokumentů je uveden v tabulce níže.
 
 | **Pole 1** | **Pole 2** | **Pole 3** | **Pole 4** |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Řazení | Zkratka dokumentu | Identifikátor typu prvku | Popis |
 | XX | XXXXX | XXXXXX | XXX.. |
 
@@ -426,6 +427,7 @@ Obsah ve stavu sdíleno bude přístupný pro jeho autora a příslušné aktér
 ### 6.1.6. Elektronická výměna informací
 
 Vzájemná výměna informací (v podobě modelů a dalších dokumentů) pro účel koordinace, reference, sdružování a archivaci bude probíhat výhradně prostřednictvím CDE. Pro výměnu informací jsou používány formáty splňující následující požadavky:
+
 - Dokumenty
   - Formáty kompatibilní s Office Open XML (ISO/IEC 29500). Tyto formáty zahrnují formáty MS Office `.docx`, `.xlsx`, `.pptx`.
   - Formát `.pdf` (Portable Document Format dle ISO 32000).
@@ -509,7 +511,7 @@ Geometrická podrobnost modelu musí být dostatečná pro vygenerování výkre
 
 Detailnost jednotlivých prvků je stanovena na 50 mm. Znamená to, že není nutné modelovat všechny detaily, které jsou menší než tento rozměr a je možné do jisté míry prvky zjednodušovat. Vždycky je potřeba mít na mysli, aby zjednodušení umožnilo plnit stanovené cíle. Míra zjednodušení musí být odsouhlasena Objednatelem. Prvky digitálního modelu stavby budou splňovat požadavky uvedené v [EIR Příloha B: Geometrická podrobnost prvků](#eir-příloha-b-geometrická-podrobnost-prvků) bez ohledu na zvolené metody a postupy práce v konkrétních modelovacích nástrojích.
 
-Geometrická podrobnost je definovaná k cílovému stavu modelu, který bude sloužit jako podklad pro další etapy nebo pro využití dat pro správu a údržbu. V průběhu zpracování může model vykazovat nedostatky ohledně geometrické podrobnosti, avšak nikdy nesmí být grafická podrobnost překážkou k plnění cílů dané tímto dokumentem. 
+Geometrická podrobnost je definovaná k cílovému stavu modelu, který bude sloužit jako podklad pro další etapy nebo pro využití dat pro správu a údržbu. V průběhu zpracování může model vykazovat nedostatky ohledně geometrické podrobnosti, avšak nikdy nesmí být grafická podrobnost překážkou k plnění cílů dané tímto dokumentem.
 
 ### 6.3.2. Alfanumerické informace – IFC atributy
 
@@ -521,7 +523,7 @@ Každý prvek digitálního informačního modelu bude ve formátu STEP `.ifc` a
 
 #### IfcDescription
 
-Každý prvek digitálního informačního modelu bude ve formátu STEP `.ifc` atribut `IfcDescription`, který bude vždy vyplněný a bude obsahovat krátký popis konkrétního prvku, např. Stěna nosná ŽB 200mm, Sloup ŽB kruhový 450mm, Tvarovka potrubí, Nosník U80, Kotel elektrický, Zásuvka 230 V apod. 
+Každý prvek digitálního informačního modelu bude ve formátu STEP `.ifc` atribut `IfcDescription`, který bude vždy vyplněný a bude obsahovat krátký popis konkrétního prvku, např. Stěna nosná ŽB 200mm, Sloup ŽB kruhový 450mm, Tvarovka potrubí, Nosník U80, Kotel elektrický, Zásuvka 230 V apod.
 
 ### 6.3.3. Alfanumerické informace – vlastnosti
 
@@ -544,7 +546,7 @@ Osový systém bude umístěn ve středu prostoru modelovacího nástroje. Názv
 Pojmenování podlaží bude shodné v celém projektu. Navržené pojmenování:
 
 | **Označení** | **Popis** |
-|---|---|
+| --- | --- |
 | **1NP** | První nadzemní podlaží (±0,000) |
 | **2NP** | Druhé nadzemní podlaží |
 | **1PP** | První podzemní podlaží |
@@ -556,7 +558,7 @@ Pojmenování podlaží bude shodné v celém projektu. Navržené pojmenování
 Model bude v modelovacím prostoru orientován tak, že podélná osa navrhovaného objektu bude shodná s pomyslnou vodorovnou osou modelovacího prostoru. Skutečný sever bude navázán na všechny půdorysné pohledy.
 
 Počátek modelu bude ideálně umístěn kousek mimo modelovaný objekt (nejlépe do bodu základní sítě S-JTSK) a bude pro všechny modely shodný a neměnný. Tento počátek určí Koordinátor BIM v modelu ASR a ostatní modely ho převezmou. K tomuto počátku budou vztaženy S-JTSK souřadnice.
- 
+
 Souřadnicové údaje jsou udávány v souřadném systému S-JTSK, Bpv. Výkresy musí být vytvořeny v souřadnicovém systému ve 3. kvadrantu ( -Y, -X). Souřadnice –X ve výkresu odpovídá souřadnici Y v S-JTSK a souřadnice –Y výkresu odpovídá souřadnici X v S-JTSK. Lokální systémy jsou nepřípustné. Data určující souřadnicový systém jsou zapsány v rámci třídy IfcCoordinateReferenceSystem její podtřídy IfcProjectedCRS.
 
 Každý model bude obsahovat i výškové umístění. Výškový systém je v m. n. m. v systému BpV.
@@ -587,18 +589,19 @@ Kóty, popisky a texty obsahující vlastnosti prvků musí být vždy asociová
 
 Koordinátor BIM zodpovídá, že na konci projektového stupně budou modely mezi sebou řádně zkoordinovány dle požadavků této kapitoly a všech podkapitol.
 
-### 7.9.1	Výstup detekce kolizí
+### 7.9.1 Výstup detekce kolizí
 
 Výstupem detekce kolizí je protokol, který je tvořen programem pro detekci kolizí. Tento protokol je uložen vždy po provedení detekce kolizí v prostředí CDE spolu se zdrojovými soubory. Součástí protokolu jsou pravidla nastavované v programu pro detekci kolizí. Cílem je maximální možná kontrolovatelnost výstupů.
 
-### 7.9.2	Tolerance kolizí
+### 7.9.2 Tolerance kolizí
 
 Není stanovena žádná tolerance kolizí. Vedení se sebe mohou v modelech pouze dotýkat, nikoli protínat. Další výjimky shrnuje následující kapitola.
 
-### 7.9.3	Způsob stanovení kolizí
+### 7.9.3 Způsob stanovení kolizí
 Kolize jsou stanovovány podle požadavků a výjimek uvedených pro jednotlivé úrovně informačních potřeb geometrických informací (podle metod uvedených v kap. [6.3. Metoda přiřazování úrovně informačních potřeb](#63-metoda-přiřazování-úrovně-informačních-potřeb)). V případě rozporů a nejasností, které nejsou postihnutelné níže uvedenými požadavky, rozhoduje o způsobu stanovení kolizí projektový manažer BIM.
 
 Trubní vedení profesní části jsou posuzována včetně tepelné izolace. Není přípustná žádná kolize žádného vedení včetně jejich izolací. Z kontroly kolizí jsou vyňaty tyto prvky (a tím pádem i jejich izolace):
+
 - Jakékoli flexibilní potrubí.
 - Trubní vedení menší než DN 50, izolace trubek a potrubí mezi sebou do 25 mm.
 - Průchod potrubí nenosnou konstrukcí (pokud není potřeba řešit dodatečné stavební prvky jako např. překlady, výměny apod.).
@@ -620,6 +623,7 @@ Informace (modely a dokumenty) budou ke každému milníku pro předávání inf
 Pro veškerou komunikaci, sdílení informací, předávání dokumentace a řízení procesů během projektování a realizace stavby je využíváno prostředí CDE zřízené objednatelem. Používání CDE je závazné pro všechny účastníky projektu.
 
 CDE je využíváno zejména pro:
+
 - sdílení projektové dokumentace a digitálních modelů;
 - výměnu digitálních modelů stavby a jiných informačních kontejnerů;
 - řízení verzí dokumentů;

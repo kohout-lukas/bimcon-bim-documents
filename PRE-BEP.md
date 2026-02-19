@@ -52,7 +52,7 @@ Předběžný plán realizace BIM (PRE-BEP) obsahuje:
 ## 1.1. Pojmy a zkratky
 
 | **Pojem / Zkratka** | **Definice** |
-|---|---|
+| --- | --- |
 | **Dodavatel** | Strana uvedená ve smlouvě, která nabízí poskytnutí dodávek, služeb nebo stavebních prací a je Dodavatelem dle zákona. Dodavatel je vedoucí pověřenou stranou dle ČSN EN ISO 19650. |
 | **Objednatel** | Strana uvedená ve smlouvě, která přijala nabídku zhotovitele a je zadavatelem podle zákona o zadávání veřejných zakázek. Objednatel je pověřující stranou dle ČSN EN ISO 19650. |
 | **Koordinátor BIM** | Osoba na straně dodavatele odpovědná za kontrolu plnění požadavků na informace v rámci managementu informací s využitím metody BIM. |
@@ -73,7 +73,7 @@ Předběžný plán realizace BIM (PRE-BEP) obsahuje:
 Tento dokument vychází z částí níže uvedených norem. Je-li se v tomto dokumentu odvoláváno na ustanovení normy, týká se to pouze přímo uvedeného ustanovení, nikoliv celého znění normy.
 
 | **Norma** | **Název** |
-|---|---|
+| --- | --- |
 | **ČSN EN ISO 19650** | Organizace a digitalizace informací o budovách a inženýrských stavbách včetně informačního modelování staveb (BIM) (soubor norem). |
 | **ČSN EN 17817-1** | Informační modelování staveb – Úroveň informačních potřeb – Část 1: Pojmy a principy. |
 | **ČSN EN ISO 16739** | Datový formát Industry Foundation Classes (IFC) pro sdílení dat ve stavebnictví a facility managementu. |
@@ -84,7 +84,7 @@ Tento dokument vychází z částí níže uvedených norem. Je-li se v tomto do
 ## 2.1. Funkce a odpovědnosti na straně objednatele
 
 | **Role BIM** | **Funkce a odpovědnosti** |
-|---|---|
+| --- | --- |
 | **Projektový manažer objednatele** | Odpovědnost za dohled nad plněním závazků vyplývajících ze smluvních vztahů se dodavatelem. |
 | **Projektový manažer BIM** | Odpovědnost za:<br>- odsouhlasení BEP vytvořeného dodavatelem, odsouhlasení změn BEP;<br>- kontrolu dodržování dokumentu EIR a BEP v rámci projektového týmu;<br>- kontrola předávaných dat dodavatelem dle BEP včetně finální kontroly před předáním;<br>Související služby, jejichž potřeba vznikne v návaznosti na úpravu BEP v průběhu realizace projektu.<br>Aktivní účast při řešení vzniklých problémů a návrh jejich řešení.<br>Zodpovídá přímo projektovému řízení na straně objednatele.<br>Neschvaluje a neprojednává dotazy zhotovitele týkající se technického řešení z hlediska řešení projektu. |
 | **Správce datového prostředí** | Správa společného datového prostředí pro celý projektový tým v celém průběhu projektu.<br>Školení uživatelů související s používáním CDE.<br>Odpovědnost za vytváření procesních matic v prostředí CDE. |
@@ -92,10 +92,10 @@ Tento dokument vychází z částí níže uvedených norem. Je-li se v tomto do
 #### Kontaktní osoby na straně objednatele
 
 | **Role BIM** | **Organizace** | **Jméno** | **E-mail** |
-|---|---|---|---|
-| **Projektový manažer BIM** |  |  |  |
-| **Správce datového prostředí** |  |  |  |
-| **Správce stavby** |  |  |  |
+| --- | --- | --- | --- |
+| **Projektový manažer BIM** | | | |
+| **Správce datového prostředí** | | | |
+| **Správce stavby** | | | |
 
 ## 2.2. Funkce a odpovědnosti na straně dodavatele
 
@@ -109,9 +109,9 @@ Tento dokument vychází z částí níže uvedených norem. Je-li se v tomto do
 #### Kontaktní osoby na straně dodavatele
 
 | **Role BIM** | **Organizace** | **Jméno** | **E-mail** |
-|---|---|---|---|
-| **Koordinátor BIM** |  |  |  |
-| **Hlavní inženýr projektu (HIP)** |  |  |  |
+|--- | --- | --- | --- |
+| **Koordinátor BIM** | | | |
+| **Hlavní inženýr projektu (HIP)** | | | |
 
 # 3. Strategie sdružování a struktura členění
 
@@ -120,17 +120,17 @@ Dílčí model bude zpracován pro každý stavební objekt (resp. inženýrský
 ## 3.1. Stavební objekty (provozní soubory, inženýrské objekty)
 
 | **SO/PS/IO** | **Popis** |
-|---|---|
+| --- | --- |
 | **SO01** | Hlavní objekt |
-|  |  |
-|  |  |
+| | |
+| | |
 
 *POZN. 1: Tabulku doplní dodavatel dle struktury projektu.*
 
 ## 3.2. Profesní části projektu
 
 | **Označení** | **Popis** |
-|---|---|
+| --- | --- |
 | **AST** | Architektonicko-stavební část |
 | **STA** | Stavebně-konstrukční část |
 | **VZT** | Vzduchotechnika |
@@ -165,26 +165,26 @@ Vysokoúrovňová matice odpovědnosti obsahuje odpovědnost jednotlivých úkol
 
 **I** – tým, který musí být informován
 
-|  | Úkolový tým 1 | Úkolový tým 2 | Úkolový tým 3 | Úkolový tým 4 |
-|---|---|---|---|---|
-| **SO01** |  |  |  |  |
-| ASR | R |  |  |  |
-| STA |  | R |  |  |
-| VZT |  |  | R |  |
-| RTC |  |  | R |  |
-| ZTI |  |  |  |  |
-| SIL |  |  |  |  |
-| SLP |  |  |  |  |
-| EPS |  |  |  |  |
-| EZS |  |  |  |  |
-| **SO02** |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| | Úkolový tým 1 | Úkolový tým 2 | Úkolový tým 3 | Úkolový tým 4 |
+| --- | --- | --- | --- | --- |
+| **SO01** | | | | |
+| ASR | R | | | |
+| STA | | R | | |
+| VZT | | | R | |
+| RTC | | | R | |
+| ZTI | | | | |
+| SIL | | | | |
+| SLP | | | | |
+| EPS | | | | |
+| EZS | | | | |
+| **SO02** | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
 
 *POZN. 1: Chybějící matice pro provozní soubory a inženýrské objekty doplní zhotovitel.*
 
@@ -195,10 +195,10 @@ Vysokoúrovňová matice odpovědnosti obsahuje odpovědnost jednotlivých úkol
 Základní bod (body) je (jsou) umístěn(y) v *[Zde uvést popis umístění bodu]*
 
 | Označení bodu | Souřadnice X | Souřadnice Y | Souřadnice Z |
-|---|---|---|---|
-| Základní bod |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| --- | --- | --- | --- |
+| Základní bod | | | |
+| | | | |
+| | | | |
 
 *POZN. 1: Souřadnice jsou uvedeny v metrech, viz. [kapitola 7.5. dokumentu EIR](EIR.md#75-jednotky-hodnot-veličin).*
 
@@ -227,10 +227,9 @@ Společné datové prostředí je implementováno na straně objednatele.
 V průběhu projektu budou používány verze projekčních a modelovacích aplikací, ve kterých byla zahájena práce. V případě potřeby je možné provést aktualizaci na vyšší verze a migraci modelů. Tato aktualizace musí být projednána mezi proejtovým maanžerem BIM koordinátorem BIM a zanesena a schválena v nové verzi tohoto dokumentu.
 
 | **Název aplikace** | **Verze** | **Účel použití** | **Formát** |
-|---|---|---|---|
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| --- | --- | --- | ---|
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
